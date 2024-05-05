@@ -6,7 +6,7 @@ import { Addressable, BigNumberish } from "ethers";
 describe("All", async function () {
   describe("string and bytes lt 32", async function () {
     it("should get the correct value from storage", async function () {
-      const dynamics = await deployContract("BytesLT31Bytes");
+      const dynamics = await deployContract("BytesLT32Bytes");
       const slot0 = await ethers.provider.getStorage(dynamics.target, 0);
       const slot1 = await ethers.provider.getStorage(dynamics.target, 1);
       const slot2 = await ethers.provider.getStorage(dynamics.target, 2);

@@ -4,7 +4,7 @@ pragma solidity ^0.8.9;
 // Uncomment this line to use console.log
 // import "hardhat/console.sol";
 
-contract BytesLT31Bytes {
+contract BytesLT32Bytes {
     string value1;
     bytes value2;
     bytes value3;
